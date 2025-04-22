@@ -1,0 +1,72 @@
+/* components/Typography/Typography.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap");
+
+.typography {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 0;
+  color: #222;
+}
+
+/* Headings */
+.typography.h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.typography.h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.typography.h3 {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.typography.h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.typography.h5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.typography.h6 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.typography.h1,
+.typography.h2,
+.typography.h3,
+.typography.h4,
+.typography.h5,
+.typography.h6 {
+  text-align: center;
+}
+
+/* Texts */
+.typography.paragraph {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.typography.caption {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.typography.label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.typography.helper {
+  font-size: 0.75rem;
+  color: #999;
+}
